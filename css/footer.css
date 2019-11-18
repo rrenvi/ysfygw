@@ -1,0 +1,65 @@
+/************footer分左右中下************/
+.footer{
+	background:url(../img/foot/BG_footer_180531.jpg) no-repeat center bottom;
+	height:589px;
+}
+.footercd{
+	position:relative;
+	width:980px;
+	margin:0 auto;
+}
+.footer-li{
+	font:bold 13px 'Microsoft YaHei';
+	color:#333333;
+}
+.footer-ul li{
+	margin-bottom:7px;
+}
+.footer-li-top{
+	margin-top:24px;
+}
+.footer1{/*第一块定位*/
+	width:580px;
+	height:344px;
+	position:absolute;
+	display:flex;
+	flex-wrap:wrap;
+	left:42px;
+	top:58px;
+}
+.footer1>ul{/*每一个ul定位*/
+	margin-right:65px;
+}
+.footer2{/*第二块定位*/
+	width:170px;
+	height:344px;
+	position:absolute;
+	right:169px;
+	top:58px;
+}
+.footer3{/*第三块定位*/
+	position:absolute;
+	top:358px;
+	right:193px;
+}
+.footer4{/*第四块定位*/
+	position:absolute;
+	top:453px;
+	left:86px;
+}
+.footer4>a{/*第四块颜色*/
+	color:white;
+}
+.footer5{/*第五块定位*/
+	position:absolute;
+	top:518px;
+	left:465px;
+}
+.footer5>img{/*第五块每个图片右边距*/
+	margin-right:20px;
+}
+.footer5>span>a{/*第五块最后一个图片的文字*/
+	vertical-align:bottom;
+	color:black;
+	font-size:14px;
+}

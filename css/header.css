@@ -1,0 +1,223 @@
+/*************头部******************/
+#header-head{
+	width:980px;
+	margin-bottom:10px;
+}
+.header-logo2{
+	margin-top:20px;
+	margin-left:40px;
+}
+.header-top{
+	margin-top:10px;
+	width:780px;
+}
+.headerfu{
+	margin-left:328px;
+}
+.login{
+/*	display:none;*/
+}
+.name{
+	font-size:13px;
+}
+.wem{
+	font-size:13px;
+	margin-left:5px;
+}
+.logout{
+	display:none;
+}
+.headerfu img{
+	margin-right:15px;
+}
+.headerfb{
+	margin-top:8px;
+}
+.headerfbpic{
+	margin-left:15px;
+}
+.headerfbpic img{
+	margin-right:15px;
+	margin-bottom:8px;
+}
+.headerfbipt>input{
+	width:300px;
+	height:25px;
+	margin-right:8px;
+	outline:none;
+	border:4px solid green;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:20px;
+	padding-left:15px;
+}
+/**************导航*****************/
+#nav-ul{
+	min-width:1300px;
+	width:100%;
+	background:#045321;
+	height:40px;
+	overflow:hidden;
+}
+#nav-ul>ul{
+	margin:0 auto;
+	width:980px;
+}
+#nav-ul>ul>li:nth-child(6){
+	margin-right:15px;
+}
+.navpsn>div>ul>li>a{
+	color:#9D9D9D;
+}
+.navpsn:hover>a{
+	position:relative;
+	top:-40px;
+}
+.navpsn:hover .hover1{
+	display:block;
+	z-Index:1;
+}
+.navpsn:hover .hover2{
+	display:block;
+	z-Index:1;
+}
+.navpsn:hover .hover3{
+	display:block;
+	z-Index:1;
+}
+.navpsn:hover .hover4{
+	display:block;
+	z-Index:1;
+}
+.navpsn:hover .hover5{
+	display:block;
+	z-Index:1;
+}
+.mar-l2{
+	position:relative;
+	margin-top:5px;
+	margin-right:5px;
+}
+.mar-l2 input{/*输入框设置尺寸*/
+	width:132px;
+	height:19px;
+	outline:none;
+	position:absolute;
+	top:3px;
+	left:2px;
+	font-size:10px;
+}
+.islogin{
+	display:none;
+	margin:0 5px 0 119px;
+	line-height:40px;
+}
+.tuichu{
+	display:none;
+}
+.denglu{
+	line-height:40px;
+}
+.islogin>span:first-child{
+	font-size:18px;
+	color:#f2e614;
+	margin-right:5px;
+}
+.islogin>span:last-child{
+	font-size:18px;
+	color:#f2e614;
+	font-family:"宋体";
+}
+#nav-ul>ul>li{/*让li浮起，设置内边距*/
+	float:left;
+}
+#nav-ul>ul>li:last-child{
+	margin-top:7px;
+}
+.qiandao{
+	margin:11px 0 0 15px;
+}
+/************悬浮部分************/
+.hover{
+	background:#fff;
+	border:1px solid black;
+	border-top:none;
+	position:absolute;
+	top:168px;
+	display:none;
+}
+.hwth{
+	width:198px;
+}
+.hva>li>a{
+	display:inline-block;
+	width:150px;
+	padding-left:20px;
+	line-height:22px;
+}
+.hva>li:first-child{
+	margin-top:20px;
+}
+.hva>li{
+	margin-bottom:3px;
+	margin-left:15px;
+}
+.hva>li>a:hover{
+	background:#045321;
+	color:#fff;
+}
+.hover1{	
+	height:165px;	 
+}
+.hover2{
+	height:150px;
+}
+.hover4{
+	height:190px;
+}
+.hover5{
+	height:215px;
+}
+.hover3{
+	width:706px;
+	height:355px;
+	margin-left:-112px;
+}
+.hover3>div{
+	float:left;
+}
+.hover3>div:first-child{
+	margin:15px 10px 0 25px;
+}
+.hover3>div:nth-child(2){
+	margin:15px 15px 0 0;
+}
+.hover3>div:last-child>div:last-child{
+	margin-top:140px;
+	margin-left:95px;
+}
+.hover3>div ul li:first-child>a{
+	color:#045321;
+	font-weight:bold;
+	font-size:15px;
+}
+.hover3>div>ul>li>a{
+	display:inline-block;
+	width:83px;
+	line-height:19px;
+	color:#9D9D9D;
+}
+.hover3>div>ul>li:not(:first-child)>a:hover{
+	background:#277332;
+	color:#fff;
+}
+.spanNew{
+	display:inline-block;
+	text-align:center;
+	width:32px;
+	line-height:14px;
+	background:#045321;
+	color:#fff;
+	margin-left:2px;
+	border-radius:3px;
+}

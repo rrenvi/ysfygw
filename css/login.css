@@ -1,0 +1,101 @@
+/*************网页中部****************/
+#login-middle{
+	width:980px;
+	height:700px;
+/*	margin-left:25%;*/
+}
+/***********上半部**************/
+.login-middle-lg{
+	min-width:980px;
+}
+.login-middle-lg>ul>li{
+	float:left;
+	margin-right:15px;
+	font-size:12px;
+	line-height:40px;
+}
+/**********下半部**************/
+.login-middle-btm{
+	margin-top:20px;
+}
+.lg-md-btm-lf{
+	background:url(../img/login/BG_lnbUtil.gif) no-repeat left top;
+	height:298px;
+	position:relative;
+	width:180px;
+}
+.lg-md-btm-lf>ul{
+	position:absolute;
+	left:12px;
+}
+.lg-md-btm-lf>ul>li{
+	vertical-align:middle;
+	margin-bottom:10px;
+}
+.lg-md-btm-lf>ul>li:first-child{
+	margin-top:20px;
+}
+.lg-md-btm-rf{
+	margin-left:20px;
+	width:780px;
+	height:705px;
+}
+.lg-md-btm-rf-b{
+	background:url(../img/login/BG_loginBox.gif) no-repeat center center;
+	width:780px;
+	height:307px;
+	position:relative;
+}
+.lg-md-btm-rf>div:first-child{
+	margin-top:10px;
+	margin-bottom:12px;
+}
+.lg-md-btm-rf>div:nth-child(2){
+	margin-bottom:25px;
+}
+.lg-md-btm-rf-txt{
+	position:absolute;
+	top:15px;
+	left:300px;
+	font-size:12px;
+}
+.lg-bird{
+	border-bottom:1px dotted #c3c3c3;
+	width:385px;
+	padding-bottom:19px;
+}
+.lg-input{
+	margin-top:15px;
+    width:385px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.lg-input-lf{
+	margin-bottom:12px;
+}
+.lg-input-lf>input{
+	outline:none;
+}
+.lf1>input{
+	margin-left:83px;
+}
+.lf2>input{
+	margin-left:95px;
+}
+.lf3{
+	margin-left:120px;
+}
+.lg-md-txt{
+	margin-bottom:5px;
+}
+.t2{
+	border-bottom:1px dotted #c3c3c3;
+	padding-bottom:10px;
+}
+.lg-md-wx>img{
+	margin-left:20px;
+}
+.lg-md-b{
+	margin-top:40px;
+}

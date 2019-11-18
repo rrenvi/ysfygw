@@ -1,0 +1,393 @@
+/**************轮播图******************/
+.index-pic{
+	position:relative;
+	margin:0 auto;
+	width:1673px;
+}
+.video>video{
+	position:absolute;
+	top:39.2%;
+	left:48.2%;
+}
+.video>a{
+	position:absolute;
+	top:55.5%;
+	left:69.5%;
+	display:block;
+	width:40px;
+	height:40px;
+}
+.index-pic>a{/*button尺寸和定位*/
+	text-align:center;
+	box-sizing:border-box;
+	padding-top:10px;
+	display:block;
+	width:151px;
+	height:43px;
+	background:#40312A;
+	color:white;
+	font:14px 'Microsoft YaHei';
+	border:none;
+	position:absolute;
+	left:52%;
+	bottom:35px;
+	outline:none;
+}
+/****************楼层布局*****************/
+.index-floor{/*楼层设置上外边距*/
+	margin:0 auto;
+	width:950px;
+	margin-top:20px;
+}
+.index-floor-ma{/*二维码左外边距*/
+	width:84px;
+}
+.scrollFixed{
+	position:fixed;
+	top:20px;
+	left:50%;
+	margin-left:-573px;
+}
+
+.scrollMa{
+	position: absolute;
+	top:607px; left:50%;
+	margin-left:-573px;
+}
+.index-floor-ma>div:first-child{/*两个二维码之间的边距*/
+	margin-bottom:10px;
+}
+.index-floor-middle{/*中间部分*/
+	width:950px;
+	margin:0 auto;
+}
+.index-floor-middle1{/*第一层宽度*/
+	width:950px;
+}
+.index-floor-middle1-left{
+	position:relative;
+}
+.index-floor-middle1-left>ul{/*第一层左边图片处理溢出隐藏*/
+	width:580px;
+	height:340px;
+}
+.index-floor-middle1-left>ul>li>a>img{
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	z-index:0;
+	transition:all .5s linear;
+}
+.index-floor-middle1-left>ul>li>a>img.show{
+	opacity:1;
+	z-index:10;
+}
+.index-floor-middle1-left-dian{/*绿框框*/
+	position:relative;
+	width:580px;
+	height:40px;
+	background:#045321;
+	box-sizing:border-box;
+}
+.index-floor-middle1-left-dian>span{/*绿框框文字*/
+	font-size:14px;
+	color:white;
+	line-height:40px;
+	padding-left:30px;
+}
+.index-floor-middle1-left-dian>ul{/*小圆点定位*/
+	position:absolute;
+	bottom:12px;
+	left:370px;
+}
+.index-floor-middle1-left-dian>ul>li{/*小圆点设置*/
+	float:left;
+	width:10px;
+	height:10px;
+	border:1px solid white;
+	border-radius:50%;
+	margin-left:5px;
+}
+.index-floor-middle1-left-dian>ul>li.showi{
+	background:white;
+}
+.index-floor-middle1-right{/*右边父元素给小圆点定位*/
+	position:relative;
+	width:350px;
+	overflow:hidden;
+}
+.index-floor-middle1-right>ul:first-child{/*右边图片设置隐藏*/
+	width:700px;
+	height:380px;
+	position:relative;
+	left:0;
+}
+.index-floor-middle1-right>ul:first-child>li{
+	float:left;
+}
+.index-floor-middle1-right>ul:last-child>li{/*右边小圆点设置*/
+	width:12px;
+	height:12px;
+	border:1px solid none;
+	border-radius:50%;
+	margin-left:5px;
+	float:left;
+	background:#A9A9A9;
+}
+.indexIndex{
+	background:#045321 !important;
+	box-shadow:2px 2px #000803 inset;
+}
+.index-floor-middle1-right>ul:last-child>li:hover{/*小圆点鼠标悬停的状态*/
+	background:#045321;
+	box-shadow:2px 2px #000803 inset;
+}
+.index-floor-middle1-right>ul:last-child{/*小圆点定位*/
+	position:absolute;
+	left:290px;
+	bottom:355px;
+	min-width:40px;	
+}
+.index-floor-middle2{/*第二层左外边距和上外边距*/
+	margin-top:20px;
+}
+.index-floor-middle2 div{/* 第二层浮起 */
+	float:left;
+}
+.index-floor-middle2>div:first-child{/*第二层第一个图片右外边距*/
+	margin-right:15px;
+}
+.videoT{
+	position:relative;
+}
+.videoTc{
+	position:absolute;
+	left:165px;
+	top:8px;
+}
+.videoTc>a{
+	position:absolute;
+	left:114px;
+	top:81px;
+}
+.index-floor-middle3{/* 第三层上,左和下外边距 */
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.index-floor-middle5{/* 第五层左外边距 */
+	margin-top:50px;
+	min-width:1000px;
+}
+.index-floor-middle5>div:first-child>img{/*div和li的边距*/
+	margin-right:90px;
+}
+.index-floor-middle5>ul:nth-child(2)>li{/*li的浮起*/
+	float:left;
+	font-size:14px;
+	margin-left:40px;
+}
+.green{/*文字部分的悬停效果*/
+	color:#045321;
+	font-weight:bold;
+	border-bottom:4px solid #045321;
+	padding-bottom:8px;
+}
+.index-floor-middle5-border li a:hover{
+	color:#045321;
+}
+.index-floor-middle5-intro{	
+	width:980px;
+	height:160px;
+	margin-top:30px;
+}
+.intrf{
+	width:930px;
+	overflow:hidden;
+	height:220px;
+	position:relative;
+}
+.intrf>div{
+	width:1860px;
+	position:absolute;
+	transition:all .5s linear;
+	left:0;
+}
+.intrl{
+	width:25px;
+	height:40px;	
+	margin-top:70px;
+	outline:none;
+	border:0;
+}
+.intrl:hover{
+	cursor:pointer;
+}
+.l1{/*左边箭头*/
+	background:url(../img/body/btn_weekly10_nav_renewal.jpg) no-repeat center center;
+}
+.r1{/*右边箭头*/
+	background:url(../img/body/btn_weekly10_nav_rene.jpg) no-repeat center center;
+}
+.intro-frame{/*介绍产品框*/
+    margin:0 14px;
+	float:left;
+	width:158px;
+	height:220px;
+}
+.intro-frame>div:first-child{
+	border:1px solid #E7E7E7;	
+}
+.intro-frame>div:first-child>span{/*三角标志定位*/
+	 display:block;
+	 position:absolute;
+	 width:37px;
+	 height:37px;
+}
+.intro-frame>div:nth-child(2){/*图片文字介绍...*/                                                                     
+	width:158px;
+	height:30px;
+	overflow:hidden;
+/*	white-space:nowrap;*/
+	text-overflow:ellipsis;
+	margin-top:10px;
+	color:#494949;
+}
+.intro-frame>div:nth-child(2)>a:hover{
+	color:#494949;
+}
+.intro-frame>div:last-child{/*介绍产品价格字体*/
+	font-weight:bold;
+	font-size:16px;
+	color:#494949;
+}
+.index-floor-line{/*分割线*/
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.index-floor-middle6{/*第六层*/
+	width:950px;
+}
+.index-floor-middle6>ul{/*第六层容器*/
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.index-floor-middle6>ul>li>div{/*容器项目下边距*/
+	margin-bottom:20px;
+}
+.index-floor-middle6-input{/*输入框父元素*/
+	background:url(../img/body/BG_subscribe.gif) no-repeat center center;
+	width:139px;
+	height:46px;
+	position:relative;
+}
+.index-floor-middle6-input>input{/*输入框定位*/
+	position:absolute;
+	top:23px;
+	left:5px;
+	width:120px;
+	border:none;
+	outline:none;
+}
+.index-floor-middle6-button{/*按钮背景设置*/
+	background:url(../img/body/btn_subscribe.gif) no-repeat center center;
+	width:45px;
+	height:29px;
+}
+.index-floor-middle6-button>input{/*按钮设置*/
+	width:45px;
+	height:29px;
+	opacity:0;
+	cursor:pointer;
+}
+/******************右边购物车标题***************************/
+.index-floor-title{/*标题浮起*/
+	width:60px;
+	background:#fff;
+}
+.scrolltitleFixed{
+	position:fixed;
+	top:20px;
+	right:50%;
+	margin-right:-548px;
+}
+.scrolltitleTop{
+	z-index:99;
+	position:absolute;
+	top:607px; right:50%;
+	margin-right:-548px;
+}
+.index-floor-title-cart{/*第二部分设边框*/
+	border:1px solid #045321;
+	width:58px;
+	height:166px;
+}
+.cartain{
+	left:-107px;
+	width:77px;
+	height:36px;
+	background:#045321;
+	color:#fff;
+	text-align:center;
+	line-height:36px;
+	position:absolute;
+	transition:all .5s linear;
+	opacity:0;
+}
+.cartainf{
+	background:url(../img/flag_arrow.png);
+	width:4px;
+	height:10px;
+	position:absolute;
+	left:77px;
+}
+.index-floor-title-cart>div>a:hover+div{
+	transform:translate(30px);
+	opacity:1;
+}
+.cv1{	
+	top:30px;
+}
+.cv2{
+	top:80px;
+}
+.cv3{
+	top:140px;
+}
+.cvf1{
+	top:-7px;
+}
+.cv4{
+	bottom:65px;
+}
+.cv5{
+	bottom:25px;
+}
+.cvf2{
+	top:12px;
+}
+.qqwb>div>a:hover+div{
+	opacity:1;
+	transform:translate(30px);
+}
+.index-floor-title-cart div{/*第二部分间距*/
+	margin-top:20px;
+}
+.index-floor-title-cart>div:last-child{/*第二部分间距*/
+	margin-bottom:10px;
+}
+.index-floor-title>div:nth-child(3){/*第三部分两边边框*/
+	border-left:1px solid #045321;
+	border-right:1px solid #045321;
+}
+.index-floor-middle6-logo div{/*第三部分上面两个小指标*/
+	width:10px;
+	height:10px;
+}
+.index-floor-middle6-logo div:first-child{/*左边小指标*/
+	background:#045321 url(../img/body/arw_renewal_prev.png) no-repeat center center;
+}
+.index-floor-middle6-logo div:nth-child(2){/*右边小指标*/
+	background:#045321 url(../img/body/arw_renewal_next.png) no-repeat center center;
+}
